@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        ".fantomasignore": "ignore",
+        "stdlib.h": "c",
+        "position.h": "c",
+        "stdbool.h": "c",
+        "stdio.h": "c",
+        "apple.h": "c",
+        "matrix.h": "c",
+        "string.h": "c",
+        "game.h": "c",
+        "snake.h": "c"
+    }
+}
