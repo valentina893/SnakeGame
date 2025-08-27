@@ -5,5 +5,5 @@ for building and running, run the following make commands:
 make all
 make run
 
-![Logo](./images/logo.png)
+![Logo](./pics/Screenshot 2025-08-27 at 12.33.43.png)
 
