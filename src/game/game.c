@@ -30,9 +30,9 @@ void drawGame(matrix m, snake s) {
             if (m.data[r][c] == 0) {
                 printf(" ");
             } else if (m.data[r][c] == 1) {
-                printf("S");
+                printf("o");
             } else {
-                printf("A");
+                printf("a");
             }
         }
         printf("|\n");
