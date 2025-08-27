@@ -13,8 +13,6 @@
 
 int main() {
 
-    int score = 0;
-
     randSeed();
 
     apple app;
@@ -23,10 +21,10 @@ int main() {
 
     //app.Position = createPosition(0, 0);
 
-    bool running = setGame(&app, &board, &snke, &score);
+    bool running = setGame(&app, &board, &snke);
 
     while (running) {
-        running = runGame(&app, &board, &snke, &score);
+        running = runGame(&app, &board, &snke);
     }
 
     //printf("%d, %d\n", snke.head->Position.x, snke.tail->Position.x);

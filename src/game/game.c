@@ -73,7 +73,7 @@ position handleInput() {
 
 }
 
-bool moveSnake(position offSet, snake* snke, matrix* board, apple* app, int* score) {
+bool moveSnake(position offSet, snake* snke, matrix* board, apple* app) {
 
     /*
         int headBuffer = 1;
@@ -144,7 +144,7 @@ bool moveSnake(position offSet, snake* snke, matrix* board, apple* app, int* sco
 
 }
 
-bool setGame(apple* app, matrix* board, snake* snke, int* score) {
+bool setGame(apple* app, matrix* board, snake* snke) {
 
     //apple app;
     //matrix board = createBoard(0, 10, 10);
@@ -174,13 +174,13 @@ bool setGame(apple* app, matrix* board, snake* snke, int* score) {
         return false;
     }
 
-    bool game = moveSnake(offSet, snke, board, app, score);
+    bool game = moveSnake(offSet, snke, board, app);
 
     return game;
 
 }
 
-bool runGame(apple* app, matrix* board, snake* snke, int* score) {
+bool runGame(apple* app, matrix* board, snake* snke) {
 
     //board->data[app->Position.x][app->Position.y] = 2;
 
@@ -195,7 +195,7 @@ bool runGame(apple* app, matrix* board, snake* snke, int* score) {
         return false;
     }
 
-    bool game = moveSnake(offSet, snke, board, app, score);
+    bool game = moveSnake(offSet, snke, board, app);
 
     return game;
 
